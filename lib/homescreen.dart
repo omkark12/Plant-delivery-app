@@ -214,8 +214,8 @@ class homescreen extends StatelessWidget {
                     onTap: () {},
                     child: Container(
                       width: MediaQuery.of(context).size.width / 1.4,
-                      margin:
-                          EdgeInsets.only(left: 5, top: 5, bottom: 5, right: 5),
+                      margin: EdgeInsets.only(
+                          left: 10, top: 5, bottom: 5, right: 5),
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(14),
                           color: Colors.white10,
@@ -232,7 +232,76 @@ class homescreen extends StatelessWidget {
                           ClipRect(
                             child: Image.asset(
                               "images/${plants2[index]}.jpg",
-                              height: 170,
+                              height: 130,
+                              width: MediaQuery.of(context).size.width / 1.4,
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(left: 10),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      plants2[index],
+                                      style: TextStyle(
+                                        color: Colors.black,
+                                        fontSize: 16,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                    SizedBox(height: 2),
+                                    Text(
+                                      "COMBO OG 5!!",
+                                      style: TextStyle(
+                                        color: Colors.black,
+                                        fontSize: 10,
+                                      ),
+                                    ),
+                                    SizedBox(height: 2),
+                                    Row(
+                                      children: [
+                                        Icon(
+                                          Icons.star,
+                                          color: Colors.yellow,
+                                        ),
+                                        Text(
+                                          "4.3/5",
+                                          style: TextStyle(
+                                              color: Colors.black,
+                                              fontWeight: FontWeight.bold),
+                                        ),
+                                        SizedBox(width: 4),
+                                        Text("(4500 ratings)"),
+                                      ],
+                                    )
+                                  ],
+                                ),
+                                Column(
+                                  children: [
+                                    Padding(
+                                      padding: EdgeInsets.all(8),
+                                      child: Column(
+                                        children: [
+                                          Icon(Icons.location_on_sharp,
+                                              color: Colors.red, size: 20),
+                                          SizedBox(width: 2),
+                                          Text(
+                                            "1KM bhau",
+                                            style: TextStyle(
+                                                color: Colors.black87,
+                                                fontWeight: FontWeight.bold,
+                                                fontSize: 12),
+                                          )
+                                        ],
+                                      ),
+                                    )
+                                  ],
+                                )
+                              ],
                             ),
                           )
                         ],
