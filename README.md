@@ -2,15 +2,6 @@
 
 A new Flutter project.
 
-## Getting Started
+This Plant Delivery app is designed to bring nature's serenity and beauty into the lives of individuals, making it easier than ever to transform their spaces into thriving green oases.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![plant](https://github.com/omkark12/Plant-delivery-app/assets/119477596/1e71048e-5e24-4927-8c0a-c3f928e3ea1b)
